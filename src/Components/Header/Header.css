@@ -1,0 +1,14 @@
+.img-container {
+    overflow: hidden; /* Hide overflow to prevent layout issues */
+  }
+  
+  /* Apply a smooth transition for a gradual effect */
+  .img-container img {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  
+  /* Scale the image on hover */
+  .img-container:hover img {
+    transform: scale(1.2); /* Adjust the scale factor as needed */
+  }
